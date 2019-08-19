@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Areyousure_ui</class>
+ <widget class="QDialog" name="Areyousure_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Are you sure ?</string>
+  </property>
+  <widget class="QPushButton" name="Yes_Button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="No_Button">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>No</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Areyousure_Label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are You Sure ?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
